@@ -4,14 +4,14 @@ import "../Card/Card.css";
 const Card = ({ EventName, Date, Description }) => {
   return (
     <>
-      <div className="flex flex-col gap-[50px] justify-center w-[377px] h-[414px] pb-[88px] pt-[40px] rounded-[40px]">
-        <div className="flex flex-col items-center justify-center  h-[auto]">
+      <div className="flex flex-col items-center justify-center gap-12 pb-12">
+        <div className="flex flex-col items-center justify-center  ">
           <span className="event-name-div">{EventName}</span>
           <span className="date-div">{Date}</span>
         </div>
-        <div className="desc-div">{Description}</div>
+        <div className="desc-div pl-11">{Description}</div>
         <div className="flex items-center justify-center btn-div">
-          <button>REGISTER</button>
+          <span>REGISTER</span>
         </div>
       </div>
     </>
