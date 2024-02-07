@@ -5,7 +5,7 @@
 .card-container {
   position: relative;
   width: 25vw;
-  height: 55vh;
+  height: 57vh;
   overflow: hidden;
   border-radius: 40px;
   z-index: 2;
@@ -24,7 +24,7 @@
 }
 
 .card-img {
-  height: 55vh;
+  height: 57vh;
   width: 25vw;
   position: absolute;
   margin-left: 3.2vw;
